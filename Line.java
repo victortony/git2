@@ -5,12 +5,6 @@ import android.graphics.Paint;
 
 public class Line extends Element {
 
-	@Override
-	public void draw(Canvas canvas, Paint paint) {
-		// TODO Auto-generated method stub
-		canvas.drawLine(pointStart.x, pointStart.y, pointEnd.x, pointEnd.y,
-				paint);
-	}
 
 
 
