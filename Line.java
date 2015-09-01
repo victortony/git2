@@ -9,11 +9,6 @@ public class Line extends Element {
 
 
 
-	@Override
-	void zoom() {
-		// TODO Auto-generated method stub
-
-	}
 
 	
 	public boolean isSelected(Point p) {
