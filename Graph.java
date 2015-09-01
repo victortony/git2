@@ -25,7 +25,8 @@ public class Graph {
 	private Graph() {}
 
 	public synchronized void add(Element e) {
-		this.elems.add(e);
+           //add
+           this.elems.add(e);
 	}
 	
 	public synchronized void remove(Element e) {
